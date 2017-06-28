@@ -46,3 +46,6 @@
 
 </body>
 </html>
+
+// namu darbai bootstrap
+patikrinti ar yra ivesta reiksme argument 1, input gali tureti ID (javascript) getelementbyid form validation
