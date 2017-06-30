@@ -1,6 +1,4 @@
 <?php include 'function.php';?> <!-- nuoroda i php funkcijas -->
-
- 
 <!DOCTYPE html>
 <html>
 <head>
@@ -37,7 +35,18 @@
                     <!-- Vykdymo mygtukas -->
                     <input class="btn btn-lg btn-primary" type="submit" value="Calculate!">
                 </div>
+
             </form>
+             <div class="row" style="height: 30px;">
+             	<div class="col-md-12">
+             	<pre>
+             	<?php 
+             	print_r($_GET);
+             	
+             	?>
+             	</pre>
+             	</div>
+             </div>
         </div>
     </div>
      

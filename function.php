@@ -30,6 +30,14 @@
             default:
         }
     }
+
+    //$result_ODD = false;
+    if ($result %2 == 0) {
+        echo "lyginis skaicius";
+    } else {
+        echo "nelyginis skaicius";
+    }
+
     function print_simbols($times) { // sudeties atveju, atspausdins tiek vienetu groteliu kiek yra suma
     	for ($i = 0; $i <= $times; $i++) {
     		echo "#";
@@ -42,5 +50,6 @@
     	//	echo "#";
     	//	$i++;
     	//}
+       
 ?>
  
