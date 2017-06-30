@@ -51,7 +51,13 @@
              	} else {
              		echo "skaicius nelyginis";
              	}
+			echo "<br />";
+             	if (($_GET['arg1'] == 5 && $_GET['arg2'] == 4 && $result != 20) || ($_GET['arg2'] == 5 && $_GET['arg1'] == 4 && $result != 20)) {
+            	echo "Tai nebuvo daugyba";
+            }
              	?>
+
+
              	</pre>
              </div>
         </div>
