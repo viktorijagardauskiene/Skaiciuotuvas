@@ -55,9 +55,17 @@
              	if (($_GET['arg1'] == 5 && $_GET['arg2'] == 4 && $result != 20) || ($_GET['arg2'] == 5 && $_GET['arg1'] == 4 && $result != 20)) {
             	echo "Tai nebuvo daugyba";
             }
+             	
+echo "<br />";
+			$temp = [];
+			array_push($temp, $_GET['arg1'], $_GET['arg2'], $_GET['operation'], $result, rand(0,9999));
+			print_r($temp);
+
+			if (array_search(666, $temp)) {
+				echo "Velnias";
+			}
+
              	?>
-
-
              	</pre>
              </div>
         </div>
