@@ -1,4 +1,10 @@
 <?php
+    if ($_GET['operation'] == "div" && $_GET['arg2'] == 0) {
+    	echo "<div class='alert alert-danger' role='alert'> <strong>Dalyba iš nulio</strong> Change Argument 2 and try submitting again.</div>";
+    }
+
+
+
     $result = 0;
     // Tikriname ar buvo perduoti kintamieji iš formos (paspausta)
     if (isset($_GET['operation'])) {    // jei perduota $_GET['operation'] reiksme ..
@@ -35,7 +41,7 @@
     	// while ($i <= $times) {
     	//	echo "#";
     	//	$i++;
-    	}
+    	//}
 ?>
  
  
