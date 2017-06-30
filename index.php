@@ -1,4 +1,4 @@
-<?php include 'function.php';?>
+<?php include 'function.php';?> <!-- nuoroda i php funkcijas -->
 
  
 <!DOCTYPE html>
@@ -6,7 +6,7 @@
 <head>
     <title>Calculator</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    <script src="script.js"></script>
+    <script src="script.js"></script> <!-- nuoroda i JavaScript funkcijas -->
 </head>
 <body>
     <div class="container">
