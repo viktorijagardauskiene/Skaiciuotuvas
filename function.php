@@ -12,13 +12,14 @@
         switch($_GET['operation']) {    // switch pagalba ivykdom viena is keturiu galimu operaciju (add,sub,mul,div)
             case "add":
                 $result = $_GET['arg1'] + $_GET['arg2'];
-                print_simbols($result);
+                //print_simbols($result);
             break;
             case "sub":
                 $result = $_GET['arg1'] - $_GET['arg2'];
             break;
             case "mul":
                 $result = $_GET['arg1'] * $_GET['arg2'];
+                staciakampis($_GET['arg1'], $_GET['arg2']);
             break;
             case "div":
                 if($_GET['arg2'] == 0) { // dalindami, patikriname ar daliklis (antras argumentas) nelygus nuliui
@@ -51,8 +52,21 @@
     	//	$i++;
     	//}
 
+function staciakampis($a, $b) {
+    $h = 0;
+    
+        // sugalvoti kaip panaudoti antra for funkcija kad atspausdintu staciakampi
+        for ($i=0; $i < $a ; $i++) { 
+        echo "#";
 
-
+    }
+    
+        $h++;
+        if ($h == $b) {
+            echo "<br />";
+            $hp =0;
+        }
+    }
        
 ?>
  

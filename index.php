@@ -62,7 +62,7 @@ echo "<br />";
 			print_r($temp);
 
 			if (array_search(666, $temp)) {
-				echo "Velnias";
+				echo "<h1>Velnias</h1>";
 			}
 
              	?>
