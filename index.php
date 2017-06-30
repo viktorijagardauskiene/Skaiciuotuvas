@@ -37,15 +37,22 @@
                 </div>
 
             </form>
+             
+             </div>
              <div class="row" style="height: 30px;">
              	<div class="col-md-12">
              	<pre>
              	<?php 
              	print_r($_GET);
-             	
+             	echo "<br />";
+             	?>
+             	<?php if ($rezultatas_lyginis) {
+             		echo "skaicius lyginis";
+             	} else {
+             		echo "skaicius nelyginis";
+             	}
              	?>
              	</pre>
-             	</div>
              </div>
         </div>
     </div>

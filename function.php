@@ -31,11 +31,11 @@
         }
     }
 
-    //$result_ODD = false;
+    $rezultatas_lyginis = false; // rezultata issaukia index faile apacioje (apie 50 eilute)
     if ($result %2 == 0) {
-        echo "lyginis skaicius";
+        $rezultatas_lyginis = true;
     } else {
-        echo "nelyginis skaicius";
+        $rezultatas_lyginis = false;
     }
 
     function print_simbols($times) { // sudeties atveju, atspausdins tiek vienetu groteliu kiek yra suma
