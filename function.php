@@ -54,18 +54,23 @@
 
 function staciakampis($a, $b) {
     $h = 0;
-    
+     
         // sugalvoti kaip panaudoti antra for funkcija kad atspausdintu staciakampi
+            
         for ($i=0; $i < $a ; $i++) { 
-        echo "#";
+        for ($n=0; $n < $b ; $n++) { 
+            echo "%";
+            }
+        $h++;
+        if ($h = $a) {
+            echo "<br />";
+            
+        }
 
+    
     }
     
-        $h++;
-        if ($h == $b) {
-            echo "<br />";
-            $hp =0;
-        }
+       
     }
        
 ?>
